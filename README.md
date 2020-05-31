@@ -1,2 +1,2 @@
-# goit-markup-hw-04
-ДЗ4
+# home-assignment-2
+home-assignment-2
