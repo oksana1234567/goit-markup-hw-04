@@ -134,6 +134,16 @@ li {
   color: #2196f3;
 }
 
+.mail1-icon {
+  width: 16px;
+  height: 11px;
+}
+
+.mail1-icon2 {
+  width: 10px;
+  height: 15px;
+}
+
 .button-flex {
   display: flex;
   justify-content: center;
@@ -291,7 +301,12 @@ li {
 }
 
 .social-icon-footer .social-element + .social-element {
-  margin-left: 10px;
+  margin-left: 25px;
+}
+
+.icon-footer2 {
+  width: 44px;
+  height: 44px;
 }
 
 .logo2 {

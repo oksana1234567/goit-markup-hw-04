@@ -134,10 +134,18 @@ li {
   color: #2196f3;
 }
 
+.mail1-icon {
+  width: 16px;
+  height: 11px;
+}
+
+.mail1-icon2 {
+  width: 10px;
+  height: 15px;
+}
+
 .hero {
   color: var(--less-white-color);
-  background-color: #a1c8e9;
-  /* на макете нет заливки, только что бы было видно текст белым цветом */
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -149,14 +157,26 @@ li {
 }
 
 .hero-order {
-  background-color: var(--secondary-text-color);
+  /* background-color: var(--secondary-text-color); */
   padding-top: 200px;
   margin: auto;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  background-image: url(../jpg/hero.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 1600px 600px;
+  background: linear-gradient(
+    180deg,
+    rgba(48, 48, 58, 1) 0%,
+    rgba(47, 48, 58, 0.8) 99%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
+
+/* Почему градиент получился другим? */
 
 .order-service {
   color: var(--less-white-color);
@@ -238,6 +258,26 @@ li {
   padding-left: 100px;
   padding-right: 100px;
   background-color: #f5f4fa;
+}
+
+.antenna {
+  width: 70px;
+  height: 70px;
+}
+
+.clock {
+  width: 70px;
+  height: 70px;
+}
+
+.monitor {
+  width: 70px;
+  height: 70px;
+}
+
+.cosmonaut {
+  width: 70px;
+  height: 70px;
 }
 
 .directions {
@@ -381,6 +421,11 @@ li {
   margin-left: 35px;
 }
 
+.icon-svg {
+  width: 44px;
+  height: 44px;
+}
+
 .comapanies {
   display: flex;
   flex-wrap: wrap;
@@ -407,6 +452,16 @@ li {
   padding-bottom: 94px;
 }
 
+.icon-companies {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-companies2 {
+  width: 70px;
+  height: 50px;
+}
+
 .flex-footer {
   display: flex;
   padding-top: 47px;
@@ -431,7 +486,7 @@ li {
 }
 
 .social-icon-footer .social-element + .social-element {
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .logo2 {
@@ -490,6 +545,11 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 9px;
+}
+
+.icon-footer2 {
+  width: 44px;
+  height: 44px;
 }
 
 .join {
