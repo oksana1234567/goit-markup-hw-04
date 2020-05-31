@@ -271,6 +271,12 @@ li {
   padding-bottom: 20px;
 }
 
+.projects-element:hover,
+.projects-element:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .projects-element {
   display: inline-block;
   width: 370px;
