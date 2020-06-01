@@ -137,11 +137,18 @@ li {
 .mail1-icon {
   width: 16px;
   height: 11px;
+  margin-right: 10px;
 }
 
 .mail1-icon2 {
   width: 10px;
   height: 15px;
+  margin-right: 10px;
+}
+
+.icon-flex {
+  display: flex;
+  align-items: center;
 }
 
 .button-flex {
@@ -177,12 +184,30 @@ li {
   padding-bottom: 6px;
   padding-right: 20px;
   padding-left: 20px;
-
+  */
+  /* 
   background: #f5f4fa;
   border-radius: 4px; */
 }
 
-.button {
+/* .button-element-button:hover,
+.button-element-button:focus {
+  color: #2196f3;
+} */
+
+.button-element-button:hover,
+.button-element-button:focus {
+  color: #2196f3;
+}
+
+.button-element-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -190,23 +215,6 @@ li {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
-
-  /* width: auto;
-  height: 26px; */
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-
-.button-element:hover,
-.button-element:focus {
-  color: #2196f3;
 }
 
 .second-header {
@@ -307,12 +315,22 @@ li {
 }
 
 .social-icon-footer .social-element + .social-element {
-  margin-left: 25px;
+  margin-left: 40px;
+}
+
+.social-element-url {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icon-footer2 {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 
 .logo2 {

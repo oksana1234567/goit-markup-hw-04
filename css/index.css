@@ -64,6 +64,7 @@ li {
 
 .mail {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 305px;
@@ -71,6 +72,11 @@ li {
 
 .mail .mail1 + .mail1 {
   margin-left: 30px;
+}
+
+.icon-flex {
+  display: flex;
+  align-items: center;
 }
 
 .accent {
@@ -137,11 +143,13 @@ li {
 .mail1-icon {
   width: 16px;
   height: 11px;
+  margin-right: 10px;
 }
 
 .mail1-icon2 {
   width: 10px;
   height: 15px;
+  margin-right: 10px;
 }
 
 .hero {
@@ -172,8 +180,8 @@ li {
   max-width: 1600px;
   background-image: linear-gradient(
       to right,
-      rgba(47, 48, 58, 0.5),
-      rgba(47, 48, 58, 0.5)
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
     ),
     url(../jpg/hero.jpg);
 }
@@ -198,7 +206,7 @@ li {
   min-width: 200px;
   height: 50px;
   margin-top: 45px;
-  margin-bottom: 199px;
+  /* margin-bottom: 199px; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
@@ -339,6 +347,10 @@ li {
   padding-bottom: 30px;
 }
 
+.image-work {
+  display: block;
+}
+
 .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -416,18 +428,32 @@ li {
   margin-right: 31px;
 }
 
-.icons .icons-element {
+/* .icons .icons-element {
   height: 20px;
   width: 20px;
-}
+} */
 
 .icons .icons-element + .icons-element {
-  margin-left: 35px;
+  margin-left: 10px;
+}
+
+.icons-element-url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
 
 .icon-svg {
   width: 44px;
   height: 44px;
+}
+
+.icons-element-url:hover,
+.icons-element-url:focus {
+  color: #2196f3;
 }
 
 .comapanies {
@@ -443,12 +469,15 @@ li {
   display: inline-block;
   width: 170px;
   height: 90px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 65px;
-  padding-left: 65px;
+  padding-left: 65px; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients {
@@ -490,7 +519,17 @@ li {
 }
 
 .social-icon-footer .social-element + .social-element {
-  margin-left: 25px;
+  margin-left: 40px;
+}
+
+.social-element-url {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .logo2 {
@@ -552,8 +591,8 @@ li {
 }
 
 .icon-footer2 {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 
 .join {
