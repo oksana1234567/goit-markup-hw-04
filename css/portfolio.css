@@ -328,6 +328,11 @@ li {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.social-element-url:hover,
+.social-element-url:focus {
+  background-color: #2196f3;
+}
+
 .icon-footer2 {
   width: 20px;
   height: 20px;

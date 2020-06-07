@@ -186,8 +186,6 @@ li {
     url(../jpg/hero.jpg);
 }
 
-/* Почему градиент получился другим? */
-
 .order-service {
   color: var(--less-white-color);
   background-color: #2196f3;
@@ -428,11 +426,6 @@ li {
   margin-right: 31px;
 }
 
-/* .icons .icons-element {
-  height: 20px;
-  width: 20px;
-} */
-
 .icons .icons-element + .icons-element {
   margin-left: 10px;
 }
@@ -441,19 +434,21 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  /* outline: solid 1px blueviolet; */
+}
+
+.icon-svg:hover,
+.icon-svg:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .icon-svg {
   width: 44px;
   height: 44px;
-}
-
-.icons-element-url:hover,
-.icons-element-url:focus {
-  color: #2196f3;
+  border-radius: 50%;
+  fill: #afb1b8;
 }
 
 .comapanies {
@@ -480,6 +475,12 @@ li {
   align-items: center;
 }
 
+.comapanies-example:hover,
+.comapanies-example:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -488,11 +489,23 @@ li {
 .icon-companies {
   width: 50px;
   height: 50px;
+  fill: #afb1b8;
 }
 
 .icon-companies2 {
   width: 70px;
   height: 50px;
+  fill: #afb1b8;
+}
+
+.icon-companies:hover,
+.icon-companies:focus {
+  fill: #2196f3;
+}
+
+.icon-companies2:hover,
+.icon-companies2:focus {
+  fill: #2196f3;
 }
 
 .flex-footer {
@@ -530,6 +543,11 @@ li {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-element-url:hover,
+.social-element-url:focus {
+  background-color: #2196f3;
 }
 
 .logo2 {
